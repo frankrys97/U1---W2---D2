@@ -168,16 +168,15 @@ if (b % 2 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let val = 7
+let val = 7;
 if (val < 5) {
-    console.log("Meno di 5");
-  } else if (val >= 5 && val < 10) {
-    console.log("Compreso tra 5 e 10");
-  } else {
-    console.log("Uguale a 10 o maggiore");
-  }
+  console.log("Meno di 5");
+} else if (val >= 5 && val < 10) {
+  console.log("Compreso tra 5 e 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
-  
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -221,13 +220,13 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const scale = []
+const scale = [];
 
-scale.unshift(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+scale.unshift(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 console.log(scale);
 
-// Avremmo potuto anche usare un ciclo for: 
+// Avremmo potuto anche usare un ciclo for:
 
 // for (let i = 1; i <= 10, i++) {
 // scale.push(i)
@@ -239,6 +238,6 @@ console.log(scale);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-scale.splice (9, 1, 100)
+scale.splice(9, 1, 100);
 
 console.log(scale);
