@@ -54,7 +54,7 @@ const num6 = 3;
 
 if (num5 === 8 || num6 === 8) {
   console.log("Almeno una delle due variabili ha valore 8");
-} else if (num5 + num6 === 8 || num5 - num6 === 8) {
+} else if (num5 + num6 === 8 || num5 - num6 === 8 || num6 - num5) {
   console.log("La somma/sottrazione delle due variabili ha valore 8");
 } else {
   console.log("condizione non verificata");
